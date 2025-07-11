@@ -8,4 +8,4 @@ docker run -d \
 -v $PWD:/minecraft #OPTIONAL, control over files  \
 --name mc-server #Docker container name\
 --restart unless-stopped #Automatic restart\
-minecraft-server #Docker image
+itzg/minecraft-server #Docker image
